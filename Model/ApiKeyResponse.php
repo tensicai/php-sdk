@@ -1,0 +1,122 @@
+<?php
+
+declare(strict_types=1);
+
+namespace TeamBlue\TensicAI\SDK\Model;
+
+use EventEngine\Data\SpecialKeySupport;
+use EventEngine\JsonSchema\JsonSchemaAwareRecord;
+use TeamBlue\JsonImmutableObjects\JsonSchemaAwareRecordLogic;
+use TeamBlue\OpenApi\Codegen\Endpoint\SpecialKeySupportLogic;
+use TeamBlue\TensicAI\SDK\Default\ApiKeyResponseDefault;
+use TeamBlue\ValueObjects\Implementation\String\DateTimeValue;
+
+final class ApiKeyResponse implements SpecialKeySupport, JsonSchemaAwareRecord
+{
+    use ApiKeyResponseDefault;
+    use JsonSchemaAwareRecordLogic;
+    use SpecialKeySupportLogic;
+
+// phpcs:disable SlevomatCodingStandard.Classes.UnusedPrivateElements.UnusedProperty
+// phpcs:disable Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps
+    private int $id;
+    private string $keyPrefix;
+    private string $description;
+    private DateTimeValue $createdAt;
+    private int|null $teamId = null;
+    /** @var array<int>|null */
+    private array|null $allowedProjects = null;
+    private bool|null $readOnly = false;
+    private int|null $tokenQuotaMonthly = null;
+    private int|null $tokensUsedThisMonth = 0;
+    private DateTimeValue|null $quotaResetAt = null;
+    private float|null $costBudgetMonthly = null;
+
+    public function id(): int
+    {
+        return $this->id;
+    }
+
+    public function keyPrefix(): string
+    {
+        return $this->keyPrefix;
+    }
+
+    public function description(): string
+    {
+        return $this->description;
+    }
+
+    public function createdAt(): DateTimeValue
+    {
+        return $this->createdAt;
+    }
+
+    public function teamId(): int|null
+    {
+        return $this->teamId;
+    }
+
+    /** @return array<int>|null */
+    public function allowedProjects(): array|null
+    {
+        return $this->allowedProjects;
+    }
+
+    public function readOnly(): bool|null
+    {
+        return $this->readOnly;
+    }
+
+    public function tokenQuotaMonthly(): int|null
+    {
+        return $this->tokenQuotaMonthly;
+    }
+
+    public function tokensUsedThisMonth(): int|null
+    {
+        return $this->tokensUsedThisMonth;
+    }
+
+    public function quotaResetAt(): DateTimeValue|null
+    {
+        return $this->quotaResetAt;
+    }
+
+    public function costBudgetMonthly(): float|null
+    {
+        return $this->costBudgetMonthly;
+    }
+
+    /** @return array<string, string> */
+    private static function arrayPropItemTypeMap(): array
+    {
+        return ['allowedProjects' => 'int'];
+    }
+
+    /** @return array<string, int> */
+    private static function maxValues(): array
+    {
+        return [];
+    }
+
+    /** @return array<string,string> */
+    public function keyMapping(): array
+    {
+        return [
+            'id' => 'id',
+            'key_prefix' => 'keyPrefix',
+            'description' => 'description',
+            'created_at' => 'createdAt',
+            'team_id' => 'teamId',
+            'allowed_projects' => 'allowedProjects',
+            'read_only' => 'readOnly',
+            'token_quota_monthly' => 'tokenQuotaMonthly',
+            'tokens_used_this_month' => 'tokensUsedThisMonth',
+            'quota_reset_at' => 'quotaResetAt',
+            'cost_budget_monthly' => 'costBudgetMonthly',
+        ];
+    }
+
+// phpcs:enable
+}

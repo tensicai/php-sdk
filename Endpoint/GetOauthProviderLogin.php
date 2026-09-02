@@ -1,0 +1,39 @@
+<?php
+
+declare(strict_types=1);
+
+namespace TeamBlue\TensicAI\SDK\Endpoint;
+
+use EventEngine\Data\SpecialKeySupport;
+use TeamBlue\OpenApi\Codegen\Endpoint\Endpoint;
+use TeamBlue\OpenApi\Codegen\Endpoint\EndpointLogic;
+use TeamBlue\OpenApi\Codegen\Endpoint\SpecialKeySupportLogic;
+
+class GetOauthProviderLogin implements Endpoint, SpecialKeySupport
+{
+    use EndpointLogic;
+    use SpecialKeySupportLogic;
+
+    private string $method = 'GET';
+    private string $uri = '/oauth/{provider}/login';
+    private string $provider;
+
+    public function provider(): string
+    {
+        return $this->provider;
+    }
+
+    /** @return array<string,mixed> */
+    public function toRequestParameters(): array
+    {
+        return [
+            'provider' => $this->provider,
+        ];
+    }
+
+    /** @return array<string,string> */
+    public function keyMapping(): array
+    {
+        return ['provider' => 'provider'];
+    }
+}

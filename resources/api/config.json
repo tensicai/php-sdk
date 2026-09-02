@@ -1,0 +1,15 @@
+{
+    "packageName": "team-blue/php-tensic-ai-sdk",
+    "description": "PHP Tensic AI SDK",
+    "gitUserId": "digital-infrastructure-ai/tensic-sdk",
+    "gitRepoId": "php-tensic-ai",
+    "artifactVersion": "0.1.0",
+    "invokerPackage": "TeamBlue\\TensicAI\\SDK",
+    "composerPackage": "TeamBlue\\\\TensicAI\\\\SDK",
+    "additionalPackages": [],
+    "copyright": "© [Tensic AI SDK](https://gitlab.group.team.blue/digital-infrastructure-ai/tensic-sdk/php-tensic-ai)",
+    "variableNamingConvention": "camelCase",
+    "srcBasePath": "",
+    "internal": "false"
+}
+

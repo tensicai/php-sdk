@@ -1,0 +1,47 @@
+<?php
+
+declare(strict_types=1);
+
+namespace TeamBlue\TensicAI\SDK\Model;
+
+use EventEngine\Data\SpecialKeySupport;
+use EventEngine\JsonSchema\JsonSchemaAwareRecord;
+use TeamBlue\JsonImmutableObjects\JsonSchemaAwareRecordLogic;
+use TeamBlue\OpenApi\Codegen\Endpoint\SpecialKeySupportLogic;
+use TeamBlue\TensicAI\SDK\Default\GetProjectsProjectIDAnalyticsSourcesQueryDefault;
+
+final class GetProjectsProjectIDAnalyticsSourcesQuery implements SpecialKeySupport, JsonSchemaAwareRecord
+{
+    use GetProjectsProjectIDAnalyticsSourcesQueryDefault;
+    use JsonSchemaAwareRecordLogic;
+    use SpecialKeySupportLogic;
+
+// phpcs:disable SlevomatCodingStandard.Classes.UnusedPrivateElements.UnusedProperty
+// phpcs:disable Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps
+    private int|null $days = 30;
+
+    public function days(): int|null
+    {
+        return $this->days;
+    }
+
+    /** @return array<string, string> */
+    private static function arrayPropItemTypeMap(): array
+    {
+        return [];
+    }
+
+    /** @return array<string, int> */
+    private static function maxValues(): array
+    {
+        return ['days' => 365];
+    }
+
+    /** @return array<string,string> */
+    public function keyMapping(): array
+    {
+        return ['days' => 'days'];
+    }
+
+// phpcs:enable
+}
