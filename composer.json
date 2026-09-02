@@ -1,5 +1,5 @@
 {
-    "name": "team-blue/php-tensic-ai-sdk",
+    "name": "tensic-ai/php-sdk",
     "description": "PHP Tensic AI SDK",
     "type": "library",
     "license": "MIT",
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TeamBlue\\TensicAI\\SDK\\": ""
+            "TensicAI\\SDK\\": ""
         }
     },
     "minimum-stability": "dev",
