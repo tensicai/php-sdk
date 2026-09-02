@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\ChatAttachmentUploadResponse;
-use TeamBlue\TensicAI\SDK\Model\ChatModel;
-use TeamBlue\TensicAI\SDK\Model\ChatResponse;
-use TeamBlue\TensicAI\SDK\Model\ChatStopRequest;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAssetsTokenQuery;
-use TeamBlue\TensicAI\SDK\Model\QuestionResponse;
+use TensicAI\SDK\Model\ChatAttachmentUploadResponse;
+use TensicAI\SDK\Model\ChatModel;
+use TensicAI\SDK\Model\ChatResponse;
+use TensicAI\SDK\Model\ChatStopRequest;
+use TensicAI\SDK\Model\GetProjectsProjectIDAssetsTokenQuery;
+use TensicAI\SDK\Model\QuestionResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

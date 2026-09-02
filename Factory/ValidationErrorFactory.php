@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\ValidationError;
+use TensicAI\SDK\Model\ValidationError;
 
 /**
  * @method static ValidationError fromArray(mixed[] $array)

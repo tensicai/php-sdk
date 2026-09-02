@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetNews;
-use TeamBlue\TensicAI\SDK\Model\NewsResponse;
+use TensicAI\SDK\Endpoint\GetNews;
+use TensicAI\SDK\Model\NewsResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

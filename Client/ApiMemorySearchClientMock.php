@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\MemorySearchRequest;
+use TensicAI\SDK\Model\MemorySearchRequest;
 
 use function func_get_args;
 

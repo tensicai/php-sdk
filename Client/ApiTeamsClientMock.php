@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\GetTeamsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetTeamsTeamIdAnalyticsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetTeamsTeamIdTransactionsQuery;
-use TeamBlue\TensicAI\SDK\Model\TeamMemberBudgetUpdate;
-use TeamBlue\TensicAI\SDK\Model\TeamModelCreate;
-use TeamBlue\TensicAI\SDK\Model\TeamModelUpdate;
-use TeamBlue\TensicAI\SDK\Model\UsernameRequest;
+use TensicAI\SDK\Model\GetTeamsQuery;
+use TensicAI\SDK\Model\GetTeamsTeamIdAnalyticsQuery;
+use TensicAI\SDK\Model\GetTeamsTeamIdTransactionsQuery;
+use TensicAI\SDK\Model\TeamMemberBudgetUpdate;
+use TensicAI\SDK\Model\TeamModelCreate;
+use TensicAI\SDK\Model\TeamModelUpdate;
+use TensicAI\SDK\Model\UsernameRequest;
 
 use function func_get_args;
 

@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetAuthWhoami;
-use TeamBlue\TensicAI\SDK\Endpoint\GetOauthProviderCallback;
-use TeamBlue\TensicAI\SDK\Endpoint\GetOauthProviderLogin;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAuthExitImpersonation;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAuthImpersonateUsername;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAuthLogin;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAuthLogout;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAuthSupportLogin;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAuthVerifyTotp;
-use TeamBlue\TensicAI\SDK\Model\TOTPVerifyRequest;
+use TensicAI\SDK\Endpoint\GetAuthWhoami;
+use TensicAI\SDK\Endpoint\GetOauthProviderCallback;
+use TensicAI\SDK\Endpoint\GetOauthProviderLogin;
+use TensicAI\SDK\Endpoint\PostAuthExitImpersonation;
+use TensicAI\SDK\Endpoint\PostAuthImpersonateUsername;
+use TensicAI\SDK\Endpoint\PostAuthLogin;
+use TensicAI\SDK\Endpoint\PostAuthLogout;
+use TensicAI\SDK\Endpoint\PostAuthSupportLogin;
+use TensicAI\SDK\Endpoint\PostAuthVerifyTotp;
+use TensicAI\SDK\Model\TOTPVerifyRequest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

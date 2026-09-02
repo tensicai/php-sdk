@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Model;
+namespace TensicAI\SDK\Model;
 
 use EventEngine\Data\SpecialKeySupport;
 use EventEngine\JsonSchema\JsonSchemaAwareRecord;
 use TeamBlue\JsonImmutableObjects\JsonSchemaAwareRecordLogic;
 use TeamBlue\OpenApi\Codegen\Endpoint\SpecialKeySupportLogic;
-use TeamBlue\TensicAI\SDK\Default\ChatAttachmentUploadResponseDefault;
+use TensicAI\SDK\Default\ChatAttachmentUploadResponseDefault;
 
 final class ChatAttachmentUploadResponse implements SpecialKeySupport, JsonSchemaAwareRecord
 {

@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetDetailResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetUpdate;
-use TeamBlue\TensicAI\SDK\Model\EvalRunCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalRunDetailResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalRunResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseUpdate;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDEvalsDatasetsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDEvalsRunsQuery;
-use TeamBlue\TensicAI\SDK\Model\PageEvalDatasetResponse;
-use TeamBlue\TensicAI\SDK\Model\PageEvalRunResponse;
+use TensicAI\SDK\Model\EvalDatasetCreate;
+use TensicAI\SDK\Model\EvalDatasetDetailResponse;
+use TensicAI\SDK\Model\EvalDatasetResponse;
+use TensicAI\SDK\Model\EvalDatasetUpdate;
+use TensicAI\SDK\Model\EvalRunCreate;
+use TensicAI\SDK\Model\EvalRunDetailResponse;
+use TensicAI\SDK\Model\EvalRunResponse;
+use TensicAI\SDK\Model\EvalTestCaseCreate;
+use TensicAI\SDK\Model\EvalTestCaseResponse;
+use TensicAI\SDK\Model\EvalTestCaseUpdate;
+use TensicAI\SDK\Model\GetProjectsProjectIDEvalsDatasetsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDEvalsRunsQuery;
+use TensicAI\SDK\Model\PageEvalDatasetResponse;
+use TensicAI\SDK\Model\PageEvalRunResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\MemoryBankResponse;
+use TensicAI\SDK\Model\MemoryBankResponse;
 
 /**
  * @method static MemoryBankResponse fromArray(mixed[] $array)

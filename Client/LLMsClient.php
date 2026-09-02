@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteLlmsLlmId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetLlms;
-use TeamBlue\TensicAI\SDK\Endpoint\GetLlmsLlmId;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchLlmsLlmId;
-use TeamBlue\TensicAI\SDK\Endpoint\PostLlms;
-use TeamBlue\TensicAI\SDK\Endpoint\PostLlmsTest;
-use TeamBlue\TensicAI\SDK\Model\GetLlmsQuery;
-use TeamBlue\TensicAI\SDK\Model\LLMModel;
-use TeamBlue\TensicAI\SDK\Model\LLMTestRequest;
-use TeamBlue\TensicAI\SDK\Model\LLMUpdate;
-use TeamBlue\TensicAI\SDK\Model\PageLLMModel;
+use TensicAI\SDK\Endpoint\DeleteLlmsLlmId;
+use TensicAI\SDK\Endpoint\GetLlms;
+use TensicAI\SDK\Endpoint\GetLlmsLlmId;
+use TensicAI\SDK\Endpoint\PatchLlmsLlmId;
+use TensicAI\SDK\Endpoint\PostLlms;
+use TensicAI\SDK\Endpoint\PostLlmsTest;
+use TensicAI\SDK\Model\GetLlmsQuery;
+use TensicAI\SDK\Model\LLMModel;
+use TensicAI\SDK\Model\LLMTestRequest;
+use TensicAI\SDK\Model\LLMUpdate;
+use TensicAI\SDK\Model\PageLLMModel;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

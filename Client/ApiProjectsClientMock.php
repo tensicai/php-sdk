@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\BodyPutProjectsProjectIDCustomToolsToolNameEnabled;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsQuery;
-use TeamBlue\TensicAI\SDK\Model\ProjectCloneRequest;
-use TeamBlue\TensicAI\SDK\Model\ProjectModelCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectModelUpdate;
-use TeamBlue\TensicAI\SDK\Model\ProjectToolUpdate;
-use TeamBlue\TensicAI\SDK\Model\RouterGenerateRequest;
-use TeamBlue\TensicAI\SDK\Model\RouterNodeGenerateRequest;
-use TeamBlue\TensicAI\SDK\Model\SystemPromptGenerateRequest;
-use TeamBlue\TensicAI\SDK\Model\UsernameRequest;
+use TensicAI\SDK\Model\BodyPutProjectsProjectIDCustomToolsToolNameEnabled;
+use TensicAI\SDK\Model\GetProjectsQuery;
+use TensicAI\SDK\Model\ProjectCloneRequest;
+use TensicAI\SDK\Model\ProjectModelCreate;
+use TensicAI\SDK\Model\ProjectModelUpdate;
+use TensicAI\SDK\Model\ProjectToolUpdate;
+use TensicAI\SDK\Model\RouterGenerateRequest;
+use TensicAI\SDK\Model\RouterNodeGenerateRequest;
+use TensicAI\SDK\Model\SystemPromptGenerateRequest;
+use TensicAI\SDK\Model\UsernameRequest;
 
 use function func_get_args;
 

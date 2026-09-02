@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\OpenAIChatCompletionRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAICompletionRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAIEmbeddingRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAIModerationRequest;
+use TensicAI\SDK\Model\OpenAIChatCompletionRequest;
+use TensicAI\SDK\Model\OpenAICompletionRequest;
+use TensicAI\SDK\Model\OpenAIEmbeddingRequest;
+use TensicAI\SDK\Model\OpenAIModerationRequest;
 
 use function func_get_args;
 

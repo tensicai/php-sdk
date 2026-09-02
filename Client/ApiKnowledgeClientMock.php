@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\FindModel;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDIngestBulkQuery;
-use TeamBlue\TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
-use TeamBlue\TensicAI\SDK\Model\TextIngestModel;
-use TeamBlue\TensicAI\SDK\Model\URLIngestModel;
+use TensicAI\SDK\Model\FindModel;
+use TensicAI\SDK\Model\GetProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\TextIngestModel;
+use TensicAI\SDK\Model\URLIngestModel;
 
 use function func_get_args;
 

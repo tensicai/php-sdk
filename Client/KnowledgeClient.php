@@ -2,36 +2,36 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEmbeddingsSource;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDIngestBulkJobID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEmbeddings;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEmbeddingsIdEmbeddingId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEmbeddingsSourceSource;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDIngestBulk;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDReembed;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDSyncStatus;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsIngestText;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsIngestUpload;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsIngestUrl;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsReset;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsSearch;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDIngestBulk;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDReembed;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDSyncTrigger;
-use TeamBlue\TensicAI\SDK\Model\BulkIngestEnqueueResponse;
-use TeamBlue\TensicAI\SDK\Model\BulkIngestJobsResponse;
-use TeamBlue\TensicAI\SDK\Model\FindModel;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDIngestBulkQuery;
-use TeamBlue\TensicAI\SDK\Model\IngestResponse;
-use TeamBlue\TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
-use TeamBlue\TensicAI\SDK\Model\ReembedEnqueueResponse;
-use TeamBlue\TensicAI\SDK\Model\ReembedStatusResponse;
-use TeamBlue\TensicAI\SDK\Model\TextIngestModel;
-use TeamBlue\TensicAI\SDK\Model\URLIngestModel;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEmbeddingsSource;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDIngestBulkJobID;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEmbeddings;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEmbeddingsIdEmbeddingId;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEmbeddingsSourceSource;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDIngestBulk;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDReembed;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDSyncStatus;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsIngestText;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsIngestUpload;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsIngestUrl;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsReset;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEmbeddingsSearch;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDIngestBulk;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDReembed;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDSyncTrigger;
+use TensicAI\SDK\Model\BulkIngestEnqueueResponse;
+use TensicAI\SDK\Model\BulkIngestJobsResponse;
+use TensicAI\SDK\Model\FindModel;
+use TensicAI\SDK\Model\GetProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\IngestResponse;
+use TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\ReembedEnqueueResponse;
+use TensicAI\SDK\Model\ReembedStatusResponse;
+use TensicAI\SDK\Model\TextIngestModel;
+use TensicAI\SDK\Model\URLIngestModel;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

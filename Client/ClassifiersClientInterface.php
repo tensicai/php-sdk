@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryCreate;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryModel;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryUpdate;
+use TensicAI\SDK\Model\ClassifierRegistryCreate;
+use TensicAI\SDK\Model\ClassifierRegistryModel;
+use TensicAI\SDK\Model\ClassifierRegistryUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

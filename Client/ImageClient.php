@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetImage;
-use TeamBlue\TensicAI\SDK\Endpoint\PostImageGeneratorGenerate;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1ImagesGenerations;
-use TeamBlue\TensicAI\SDK\Model\ImageModel;
-use TeamBlue\TensicAI\SDK\Model\OpenAIImageGenerateRequest;
+use TensicAI\SDK\Endpoint\GetImage;
+use TensicAI\SDK\Endpoint\PostImageGeneratorGenerate;
+use TensicAI\SDK\Endpoint\PostV1ImagesGenerations;
+use TensicAI\SDK\Model\ImageModel;
+use TensicAI\SDK\Model\OpenAIImageGenerateRequest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

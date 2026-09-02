@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDWidgetsWidgetID;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDWidgetsWidgetIDContextSecret;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDWidgets;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDWidgetsWidgetID;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchProjectsProjectIDWidgetsWidgetID;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDWidgets;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDWidgetsWidgetIDContextSecret;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDWidgetsWidgetIDRegenerateKey;
-use TeamBlue\TensicAI\SDK\Model\WidgetContextSecretResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetCreate;
-use TeamBlue\TensicAI\SDK\Model\WidgetCreatedResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetListResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetUpdate;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDWidgetsWidgetID;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDWidgetsWidgetIDContextSecret;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDWidgets;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDWidgetsWidgetID;
+use TensicAI\SDK\Endpoint\PatchProjectsProjectIDWidgetsWidgetID;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDWidgets;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDWidgetsWidgetIDContextSecret;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDWidgetsWidgetIDRegenerateKey;
+use TensicAI\SDK\Model\WidgetContextSecretResponse;
+use TensicAI\SDK\Model\WidgetCreate;
+use TensicAI\SDK\Model\WidgetCreatedResponse;
+use TensicAI\SDK\Model\WidgetListResponse;
+use TensicAI\SDK\Model\WidgetResponse;
+use TensicAI\SDK\Model\WidgetUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

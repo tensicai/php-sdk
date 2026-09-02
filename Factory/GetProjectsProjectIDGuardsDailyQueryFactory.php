@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
 
 /**
  * @method static GetProjectsProjectIDGuardsDailyQuery fromArray(mixed[] $array)

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\ConversationDailyPoint;
+use TensicAI\SDK\Model\ConversationDailyPoint;
 
 /**
  * @method static ConversationDailyPoint fromArray(mixed[] $array)

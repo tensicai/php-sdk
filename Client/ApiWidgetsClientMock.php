@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\WidgetCreate;
-use TeamBlue\TensicAI\SDK\Model\WidgetUpdate;
+use TensicAI\SDK\Model\WidgetCreate;
+use TensicAI\SDK\Model\WidgetUpdate;
 
 use function func_get_args;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretModel;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretUpdate;
+use TensicAI\SDK\Model\ProjectSecretCreate;
+use TensicAI\SDK\Model\ProjectSecretModel;
+use TensicAI\SDK\Model\ProjectSecretUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

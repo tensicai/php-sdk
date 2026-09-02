@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\MemorySearchRequest;
-use TeamBlue\TensicAI\SDK\Model\MemorySearchResponse;
+use TensicAI\SDK\Model\MemorySearchRequest;
+use TensicAI\SDK\Model\MemorySearchResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

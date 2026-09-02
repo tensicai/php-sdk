@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\PostSettingsVectordbBackendTestBody;
+use TensicAI\SDK\Model\PostSettingsVectordbBackendTestBody;
 
 /**
  * @method static PostSettingsVectordbBackendTestBody fromArray(mixed[] $array)

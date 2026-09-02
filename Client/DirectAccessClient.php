@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetDirectModels;
-use TeamBlue\TensicAI\SDK\Endpoint\GetV1Models;
-use TeamBlue\TensicAI\SDK\Endpoint\GetV1ModelsModelId;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1ChatCompletions;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1Completions;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1Embeddings;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1Moderations;
-use TeamBlue\TensicAI\SDK\Model\OpenAIChatCompletionRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAIChatCompletionResponse;
-use TeamBlue\TensicAI\SDK\Model\OpenAICompletionRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAIEmbeddingRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAIEmbeddingResponse;
-use TeamBlue\TensicAI\SDK\Model\OpenAIModerationRequest;
+use TensicAI\SDK\Endpoint\GetDirectModels;
+use TensicAI\SDK\Endpoint\GetV1Models;
+use TensicAI\SDK\Endpoint\GetV1ModelsModelId;
+use TensicAI\SDK\Endpoint\PostV1ChatCompletions;
+use TensicAI\SDK\Endpoint\PostV1Completions;
+use TensicAI\SDK\Endpoint\PostV1Embeddings;
+use TensicAI\SDK\Endpoint\PostV1Moderations;
+use TensicAI\SDK\Model\OpenAIChatCompletionRequest;
+use TensicAI\SDK\Model\OpenAIChatCompletionResponse;
+use TensicAI\SDK\Model\OpenAICompletionRequest;
+use TensicAI\SDK\Model\OpenAIEmbeddingRequest;
+use TensicAI\SDK\Model\OpenAIEmbeddingResponse;
+use TensicAI\SDK\Model\OpenAIModerationRequest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

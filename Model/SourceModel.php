@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Model;
+namespace TensicAI\SDK\Model;
 
 use EventEngine\Data\SpecialKeySupport;
 use EventEngine\JsonSchema\JsonSchemaAwareRecord;
 use TeamBlue\JsonImmutableObjects\JsonSchemaAwareRecordLogic;
 use TeamBlue\OpenApi\Codegen\Endpoint\SpecialKeySupportLogic;
-use TeamBlue\TensicAI\SDK\Default\SourceModelDefault;
+use TensicAI\SDK\Default\SourceModelDefault;
 
 final class SourceModel implements SpecialKeySupport, JsonSchemaAwareRecord
 {

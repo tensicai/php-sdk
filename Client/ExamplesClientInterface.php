@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\ExampleInstallRequest;
-use TeamBlue\TensicAI\SDK\Model\ExampleInstallResponse;
-use TeamBlue\TensicAI\SDK\Model\ExampleListResponse;
+use TensicAI\SDK\Model\ExampleInstallRequest;
+use TensicAI\SDK\Model\ExampleInstallResponse;
+use TensicAI\SDK\Model\ExampleListResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

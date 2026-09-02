@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\Get;
-use TeamBlue\TensicAI\SDK\Endpoint\GetHealthLive;
-use TeamBlue\TensicAI\SDK\Endpoint\GetHealthReady;
-use TeamBlue\TensicAI\SDK\Endpoint\GetInfo;
-use TeamBlue\TensicAI\SDK\Endpoint\GetSetup;
-use TeamBlue\TensicAI\SDK\Endpoint\GetVersion;
+use TensicAI\SDK\Endpoint\Get;
+use TensicAI\SDK\Endpoint\GetHealthLive;
+use TensicAI\SDK\Endpoint\GetHealthReady;
+use TensicAI\SDK\Endpoint\GetInfo;
+use TensicAI\SDK\Endpoint\GetSetup;
+use TensicAI\SDK\Endpoint\GetVersion;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

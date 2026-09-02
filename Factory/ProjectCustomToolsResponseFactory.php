@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\ProjectCustomToolsResponse;
+use TensicAI\SDK\Model\ProjectCustomToolsResponse;
 
 /**
  * @method static ProjectCustomToolsResponse fromArray(mixed[] $array)

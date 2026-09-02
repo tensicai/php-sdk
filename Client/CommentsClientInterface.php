@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\CommentCreatedResponse;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDCommentsQuery;
-use TeamBlue\TensicAI\SDK\Model\MessageResponse;
-use TeamBlue\TensicAI\SDK\Model\PageProjectCommentResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectCommentCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectCommentUpdate;
+use TensicAI\SDK\Model\CommentCreatedResponse;
+use TensicAI\SDK\Model\GetProjectsProjectIDCommentsQuery;
+use TensicAI\SDK\Model\MessageResponse;
+use TensicAI\SDK\Model\PageProjectCommentResponse;
+use TensicAI\SDK\Model\ProjectCommentCreate;
+use TensicAI\SDK\Model\ProjectCommentUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

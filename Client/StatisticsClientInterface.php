@@ -2,40 +2,40 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\ChunkingAnalyticsResponse;
-use TeamBlue\TensicAI\SDK\Model\ConversationAnalyticsResponse;
-use TeamBlue\TensicAI\SDK\Model\ConversationContextResponse;
-use TeamBlue\TensicAI\SDK\Model\ConversationListResponse;
-use TeamBlue\TensicAI\SDK\Model\ConversationReplayResponse;
-use TeamBlue\TensicAI\SDK\Model\FlushLogsResponse;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsChunkingQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationChatIDContextQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsHealthQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsSourcesQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsToolsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDConversationsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDLogsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDTokensDailyQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsDailyTokensQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsTopLlmsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsTopProjectsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsUsersQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsUsersUserIDQuery;
-use TeamBlue\TensicAI\SDK\Model\GetTeamsTeamIdAnalyticsQuery;
-use TeamBlue\TensicAI\SDK\Model\ProjectHealthResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectLogsResponse;
-use TeamBlue\TensicAI\SDK\Model\SourceAnalyticsResponse;
-use TeamBlue\TensicAI\SDK\Model\StatisticsDailyTokensResponse;
-use TeamBlue\TensicAI\SDK\Model\StatisticsSummaryResponse;
-use TeamBlue\TensicAI\SDK\Model\StatisticsTopLLMsResponse;
-use TeamBlue\TensicAI\SDK\Model\StatisticsTopProjectsResponse;
-use TeamBlue\TensicAI\SDK\Model\StatisticsTopUsersResponse;
-use TeamBlue\TensicAI\SDK\Model\TokenDailyResponse;
-use TeamBlue\TensicAI\SDK\Model\ToolAnalyticsResponse;
-use TeamBlue\TensicAI\SDK\Model\UserActivityResponse;
+use TensicAI\SDK\Model\ChunkingAnalyticsResponse;
+use TensicAI\SDK\Model\ConversationAnalyticsResponse;
+use TensicAI\SDK\Model\ConversationContextResponse;
+use TensicAI\SDK\Model\ConversationListResponse;
+use TensicAI\SDK\Model\ConversationReplayResponse;
+use TensicAI\SDK\Model\FlushLogsResponse;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsChunkingQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationChatIDContextQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsHealthQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsSourcesQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsToolsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDConversationsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDLogsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDTokensDailyQuery;
+use TensicAI\SDK\Model\GetStatisticsDailyTokensQuery;
+use TensicAI\SDK\Model\GetStatisticsTopLlmsQuery;
+use TensicAI\SDK\Model\GetStatisticsTopProjectsQuery;
+use TensicAI\SDK\Model\GetStatisticsUsersQuery;
+use TensicAI\SDK\Model\GetStatisticsUsersUserIDQuery;
+use TensicAI\SDK\Model\GetTeamsTeamIdAnalyticsQuery;
+use TensicAI\SDK\Model\ProjectHealthResponse;
+use TensicAI\SDK\Model\ProjectLogsResponse;
+use TensicAI\SDK\Model\SourceAnalyticsResponse;
+use TensicAI\SDK\Model\StatisticsDailyTokensResponse;
+use TensicAI\SDK\Model\StatisticsSummaryResponse;
+use TensicAI\SDK\Model\StatisticsTopLLMsResponse;
+use TensicAI\SDK\Model\StatisticsTopProjectsResponse;
+use TensicAI\SDK\Model\StatisticsTopUsersResponse;
+use TensicAI\SDK\Model\TokenDailyResponse;
+use TensicAI\SDK\Model\ToolAnalyticsResponse;
+use TensicAI\SDK\Model\UserActivityResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

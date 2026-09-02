@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretUpdate;
+use TensicAI\SDK\Model\ProjectSecretCreate;
+use TensicAI\SDK\Model\ProjectSecretUpdate;
 
 use function func_get_args;
 

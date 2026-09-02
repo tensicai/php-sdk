@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelUpdate;
+use TensicAI\SDK\Model\SpeechToTextModelUpdate;
 
 /**
  * @method static SpeechToTextModelUpdate fromArray(mixed[] $array)

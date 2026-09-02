@@ -2,41 +2,41 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteCronLogs;
-use TeamBlue\TensicAI\SDK\Endpoint\GetAdminRoutines;
-use TeamBlue\TensicAI\SDK\Endpoint\GetAudit;
-use TeamBlue\TensicAI\SDK\Endpoint\GetCronLogs;
-use TeamBlue\TensicAI\SDK\Endpoint\GetSettings;
-use TeamBlue\TensicAI\SDK\Endpoint\GetSettingsInfrastructure;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchAdminRoutinesRoutineID;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchSettings;
-use TeamBlue\TensicAI\SDK\Endpoint\PostCronLogsRun;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsDockerTest;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsDoclingTest;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsE2bTest;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsHealth;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsKubernetesTest;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsOtelTest;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsRedisTest;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsS3Test;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSettingsVectordbBackendTest;
-use TeamBlue\TensicAI\SDK\Model\AdminRoutineToggleRequest;
-use TeamBlue\TensicAI\SDK\Model\DockerTestRequest;
-use TeamBlue\TensicAI\SDK\Model\DoclingTestRequest;
-use TeamBlue\TensicAI\SDK\Model\E2BTestRequest;
-use TeamBlue\TensicAI\SDK\Model\GetAuditQuery;
-use TeamBlue\TensicAI\SDK\Model\GetCronLogsQuery;
-use TeamBlue\TensicAI\SDK\Model\HealthCheckResponse;
-use TeamBlue\TensicAI\SDK\Model\InfrastructureStatusResponse;
-use TeamBlue\TensicAI\SDK\Model\KubernetesTestRequest;
-use TeamBlue\TensicAI\SDK\Model\OtelTestRequest;
-use TeamBlue\TensicAI\SDK\Model\OtelTestResponse;
-use TeamBlue\TensicAI\SDK\Model\SettingsResponse;
-use TeamBlue\TensicAI\SDK\Model\SettingsUpdate;
+use TensicAI\SDK\Endpoint\DeleteCronLogs;
+use TensicAI\SDK\Endpoint\GetAdminRoutines;
+use TensicAI\SDK\Endpoint\GetAudit;
+use TensicAI\SDK\Endpoint\GetCronLogs;
+use TensicAI\SDK\Endpoint\GetSettings;
+use TensicAI\SDK\Endpoint\GetSettingsInfrastructure;
+use TensicAI\SDK\Endpoint\PatchAdminRoutinesRoutineID;
+use TensicAI\SDK\Endpoint\PatchSettings;
+use TensicAI\SDK\Endpoint\PostCronLogsRun;
+use TensicAI\SDK\Endpoint\PostSettingsDockerTest;
+use TensicAI\SDK\Endpoint\PostSettingsDoclingTest;
+use TensicAI\SDK\Endpoint\PostSettingsE2bTest;
+use TensicAI\SDK\Endpoint\PostSettingsHealth;
+use TensicAI\SDK\Endpoint\PostSettingsKubernetesTest;
+use TensicAI\SDK\Endpoint\PostSettingsOtelTest;
+use TensicAI\SDK\Endpoint\PostSettingsRedisTest;
+use TensicAI\SDK\Endpoint\PostSettingsS3Test;
+use TensicAI\SDK\Endpoint\PostSettingsVectordbBackendTest;
+use TensicAI\SDK\Model\AdminRoutineToggleRequest;
+use TensicAI\SDK\Model\DockerTestRequest;
+use TensicAI\SDK\Model\DoclingTestRequest;
+use TensicAI\SDK\Model\E2BTestRequest;
+use TensicAI\SDK\Model\GetAuditQuery;
+use TensicAI\SDK\Model\GetCronLogsQuery;
+use TensicAI\SDK\Model\HealthCheckResponse;
+use TensicAI\SDK\Model\InfrastructureStatusResponse;
+use TensicAI\SDK\Model\KubernetesTestRequest;
+use TensicAI\SDK\Model\OtelTestRequest;
+use TensicAI\SDK\Model\OtelTestResponse;
+use TensicAI\SDK\Model\SettingsResponse;
+use TensicAI\SDK\Model\SettingsUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

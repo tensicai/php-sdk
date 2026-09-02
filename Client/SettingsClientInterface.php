@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\AdminRoutineToggleRequest;
-use TeamBlue\TensicAI\SDK\Model\DockerTestRequest;
-use TeamBlue\TensicAI\SDK\Model\DoclingTestRequest;
-use TeamBlue\TensicAI\SDK\Model\E2BTestRequest;
-use TeamBlue\TensicAI\SDK\Model\GetAuditQuery;
-use TeamBlue\TensicAI\SDK\Model\GetCronLogsQuery;
-use TeamBlue\TensicAI\SDK\Model\HealthCheckResponse;
-use TeamBlue\TensicAI\SDK\Model\InfrastructureStatusResponse;
-use TeamBlue\TensicAI\SDK\Model\KubernetesTestRequest;
-use TeamBlue\TensicAI\SDK\Model\OtelTestRequest;
-use TeamBlue\TensicAI\SDK\Model\OtelTestResponse;
-use TeamBlue\TensicAI\SDK\Model\SettingsResponse;
-use TeamBlue\TensicAI\SDK\Model\SettingsUpdate;
+use TensicAI\SDK\Model\AdminRoutineToggleRequest;
+use TensicAI\SDK\Model\DockerTestRequest;
+use TensicAI\SDK\Model\DoclingTestRequest;
+use TensicAI\SDK\Model\E2BTestRequest;
+use TensicAI\SDK\Model\GetAuditQuery;
+use TensicAI\SDK\Model\GetCronLogsQuery;
+use TensicAI\SDK\Model\HealthCheckResponse;
+use TensicAI\SDK\Model\InfrastructureStatusResponse;
+use TensicAI\SDK\Model\KubernetesTestRequest;
+use TensicAI\SDK\Model\OtelTestRequest;
+use TensicAI\SDK\Model\OtelTestResponse;
+use TensicAI\SDK\Model\SettingsResponse;
+use TensicAI\SDK\Model\SettingsUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

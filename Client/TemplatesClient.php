@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteTemplatesTemplateID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetTemplates;
-use TeamBlue\TensicAI\SDK\Endpoint\GetTemplatesTemplateID;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchTemplatesTemplateID;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDPublishTemplate;
-use TeamBlue\TensicAI\SDK\Endpoint\PostTemplatesTemplateIDInstantiate;
-use TeamBlue\TensicAI\SDK\Model\GetTemplatesQuery;
-use TeamBlue\TensicAI\SDK\Model\PageProjectTemplateResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateInstantiate;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplatePublish;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateUpdate;
+use TensicAI\SDK\Endpoint\DeleteTemplatesTemplateID;
+use TensicAI\SDK\Endpoint\GetTemplates;
+use TensicAI\SDK\Endpoint\GetTemplatesTemplateID;
+use TensicAI\SDK\Endpoint\PatchTemplatesTemplateID;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDPublishTemplate;
+use TensicAI\SDK\Endpoint\PostTemplatesTemplateIDInstantiate;
+use TensicAI\SDK\Model\GetTemplatesQuery;
+use TensicAI\SDK\Model\PageProjectTemplateResponse;
+use TensicAI\SDK\Model\ProjectTemplateInstantiate;
+use TensicAI\SDK\Model\ProjectTemplatePublish;
+use TensicAI\SDK\Model\ProjectTemplateResponse;
+use TensicAI\SDK\Model\ProjectTemplateUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

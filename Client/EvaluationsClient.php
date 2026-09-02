@@ -2,36 +2,36 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEvalsDatasetsDatasetID;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEvalsDatasetsDatasetIDCasesCaseID;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEvalsRunsRunID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsDatasets;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsDatasetsDatasetID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsRuns;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsRunsRunID;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchProjectsProjectIDEvalsDatasetsDatasetID;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchProjectsProjectIDEvalsDatasetsDatasetIDCasesCaseID;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEvalsDatasets;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEvalsDatasetsDatasetIDCases;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDEvalsRuns;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetDetailResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetUpdate;
-use TeamBlue\TensicAI\SDK\Model\EvalRunCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalRunDetailResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalRunResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseResponse;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseUpdate;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDEvalsDatasetsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDEvalsRunsQuery;
-use TeamBlue\TensicAI\SDK\Model\PageEvalDatasetResponse;
-use TeamBlue\TensicAI\SDK\Model\PageEvalRunResponse;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEvalsDatasetsDatasetID;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEvalsDatasetsDatasetIDCasesCaseID;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDEvalsRunsRunID;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsDatasets;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsDatasetsDatasetID;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsRuns;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDEvalsRunsRunID;
+use TensicAI\SDK\Endpoint\PatchProjectsProjectIDEvalsDatasetsDatasetID;
+use TensicAI\SDK\Endpoint\PatchProjectsProjectIDEvalsDatasetsDatasetIDCasesCaseID;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEvalsDatasets;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEvalsDatasetsDatasetIDCases;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDEvalsRuns;
+use TensicAI\SDK\Model\EvalDatasetCreate;
+use TensicAI\SDK\Model\EvalDatasetDetailResponse;
+use TensicAI\SDK\Model\EvalDatasetResponse;
+use TensicAI\SDK\Model\EvalDatasetUpdate;
+use TensicAI\SDK\Model\EvalRunCreate;
+use TensicAI\SDK\Model\EvalRunDetailResponse;
+use TensicAI\SDK\Model\EvalRunResponse;
+use TensicAI\SDK\Model\EvalTestCaseCreate;
+use TensicAI\SDK\Model\EvalTestCaseResponse;
+use TensicAI\SDK\Model\EvalTestCaseUpdate;
+use TensicAI\SDK\Model\GetProjectsProjectIDEvalsDatasetsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDEvalsRunsQuery;
+use TensicAI\SDK\Model\PageEvalDatasetResponse;
+use TensicAI\SDK\Model\PageEvalRunResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

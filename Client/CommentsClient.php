@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDCommentsCommentID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDComments;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchProjectsProjectIDCommentsCommentID;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDComments;
-use TeamBlue\TensicAI\SDK\Model\CommentCreatedResponse;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDCommentsQuery;
-use TeamBlue\TensicAI\SDK\Model\MessageResponse;
-use TeamBlue\TensicAI\SDK\Model\PageProjectCommentResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectCommentCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectCommentUpdate;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDCommentsCommentID;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDComments;
+use TensicAI\SDK\Endpoint\PatchProjectsProjectIDCommentsCommentID;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDComments;
+use TensicAI\SDK\Model\CommentCreatedResponse;
+use TensicAI\SDK\Model\GetProjectsProjectIDCommentsQuery;
+use TensicAI\SDK\Model\MessageResponse;
+use TensicAI\SDK\Model\PageProjectCommentResponse;
+use TensicAI\SDK\Model\ProjectCommentCreate;
+use TensicAI\SDK\Model\ProjectCommentUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

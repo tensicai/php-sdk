@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteSpeechToTextModelId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetSpeechToText;
-use TeamBlue\TensicAI\SDK\Endpoint\GetSpeechToTextModelId;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchSpeechToTextModelId;
-use TeamBlue\TensicAI\SDK\Endpoint\PostSpeechToText;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModel;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelCreate;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelUpdate;
+use TensicAI\SDK\Endpoint\DeleteSpeechToTextModelId;
+use TensicAI\SDK\Endpoint\GetSpeechToText;
+use TensicAI\SDK\Endpoint\GetSpeechToTextModelId;
+use TensicAI\SDK\Endpoint\PatchSpeechToTextModelId;
+use TensicAI\SDK\Endpoint\PostSpeechToText;
+use TensicAI\SDK\Model\SpeechToTextModel;
+use TensicAI\SDK\Model\SpeechToTextModelCreate;
+use TensicAI\SDK\Model\SpeechToTextModelUpdate;
 
 use function array_map;
 

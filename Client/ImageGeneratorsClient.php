@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteImageGeneratorsGeneratorId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetImageGenerators;
-use TeamBlue\TensicAI\SDK\Endpoint\GetImageGeneratorsGeneratorId;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchImageGeneratorsGeneratorId;
-use TeamBlue\TensicAI\SDK\Endpoint\PostImageGenerators;
-use TeamBlue\TensicAI\SDK\Model\ImageGeneratorModel;
-use TeamBlue\TensicAI\SDK\Model\ImageGeneratorModelCreate;
-use TeamBlue\TensicAI\SDK\Model\ImageGeneratorModelUpdate;
+use TensicAI\SDK\Endpoint\DeleteImageGeneratorsGeneratorId;
+use TensicAI\SDK\Endpoint\GetImageGenerators;
+use TensicAI\SDK\Endpoint\GetImageGeneratorsGeneratorId;
+use TensicAI\SDK\Endpoint\PatchImageGeneratorsGeneratorId;
+use TensicAI\SDK\Endpoint\PostImageGenerators;
+use TensicAI\SDK\Model\ImageGeneratorModel;
+use TensicAI\SDK\Model\ImageGeneratorModelCreate;
+use TensicAI\SDK\Model\ImageGeneratorModelUpdate;
 
 use function array_map;
 

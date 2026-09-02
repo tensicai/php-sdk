@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsChunkingQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationChatIDContextQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsHealthQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsSourcesQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsToolsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDConversationsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDLogsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDTokensDailyQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsDailyTokensQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsTopLlmsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsTopProjectsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsUsersQuery;
-use TeamBlue\TensicAI\SDK\Model\GetStatisticsUsersUserIDQuery;
-use TeamBlue\TensicAI\SDK\Model\GetTeamsTeamIdAnalyticsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsChunkingQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationChatIDContextQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsConversationsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsHealthQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsSourcesQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDAnalyticsToolsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDConversationsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDLogsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDTokensDailyQuery;
+use TensicAI\SDK\Model\GetStatisticsDailyTokensQuery;
+use TensicAI\SDK\Model\GetStatisticsTopLlmsQuery;
+use TensicAI\SDK\Model\GetStatisticsTopProjectsQuery;
+use TensicAI\SDK\Model\GetStatisticsUsersQuery;
+use TensicAI\SDK\Model\GetStatisticsUsersUserIDQuery;
+use TensicAI\SDK\Model\GetTeamsTeamIdAnalyticsQuery;
 
 use function func_get_args;
 

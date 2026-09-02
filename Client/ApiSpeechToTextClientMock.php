@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelCreate;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelUpdate;
+use TensicAI\SDK\Model\SpeechToTextModelCreate;
+use TensicAI\SDK\Model\SpeechToTextModelUpdate;
 
 use function func_get_args;
 

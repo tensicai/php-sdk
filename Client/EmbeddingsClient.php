@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteEmbeddingsEmbeddingId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetEmbeddings;
-use TeamBlue\TensicAI\SDK\Endpoint\GetEmbeddingsEmbeddingId;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchEmbeddingsEmbeddingId;
-use TeamBlue\TensicAI\SDK\Endpoint\PostEmbeddings;
-use TeamBlue\TensicAI\SDK\Model\EmbeddingModel;
-use TeamBlue\TensicAI\SDK\Model\EmbeddingUpdate;
-use TeamBlue\TensicAI\SDK\Model\GetEmbeddingsQuery;
-use TeamBlue\TensicAI\SDK\Model\PageEmbeddingModel;
+use TensicAI\SDK\Endpoint\DeleteEmbeddingsEmbeddingId;
+use TensicAI\SDK\Endpoint\GetEmbeddings;
+use TensicAI\SDK\Endpoint\GetEmbeddingsEmbeddingId;
+use TensicAI\SDK\Endpoint\PatchEmbeddingsEmbeddingId;
+use TensicAI\SDK\Endpoint\PostEmbeddings;
+use TensicAI\SDK\Model\EmbeddingModel;
+use TensicAI\SDK\Model\EmbeddingUpdate;
+use TensicAI\SDK\Model\GetEmbeddingsQuery;
+use TensicAI\SDK\Model\PageEmbeddingModel;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

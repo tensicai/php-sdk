@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDAssetsToken;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDAttachments;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDChat;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDChatStop;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDQuestion;
-use TeamBlue\TensicAI\SDK\Model\ChatAttachmentUploadResponse;
-use TeamBlue\TensicAI\SDK\Model\ChatModel;
-use TeamBlue\TensicAI\SDK\Model\ChatResponse;
-use TeamBlue\TensicAI\SDK\Model\ChatStopRequest;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAssetsTokenQuery;
-use TeamBlue\TensicAI\SDK\Model\QuestionResponse;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDAssetsToken;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDAttachments;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDChat;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDChatStop;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDQuestion;
+use TensicAI\SDK\Model\ChatAttachmentUploadResponse;
+use TensicAI\SDK\Model\ChatModel;
+use TensicAI\SDK\Model\ChatResponse;
+use TensicAI\SDK\Model\ChatStopRequest;
+use TensicAI\SDK\Model\GetProjectsProjectIDAssetsTokenQuery;
+use TensicAI\SDK\Model\QuestionResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\GetTemplatesQuery;
-use TeamBlue\TensicAI\SDK\Model\PageProjectTemplateResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateInstantiate;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplatePublish;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateUpdate;
+use TensicAI\SDK\Model\GetTemplatesQuery;
+use TensicAI\SDK\Model\PageProjectTemplateResponse;
+use TensicAI\SDK\Model\ProjectTemplateInstantiate;
+use TensicAI\SDK\Model\ProjectTemplatePublish;
+use TensicAI\SDK\Model\ProjectTemplateResponse;
+use TensicAI\SDK\Model\ProjectTemplateUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

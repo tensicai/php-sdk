@@ -18,7 +18,7 @@ And install the package:
 
 
 ```bash
-composer require team-blue/php-tensic-ai-sdk
+composer require tensic-ai/php-sdk
 ```
 ## Usage
 

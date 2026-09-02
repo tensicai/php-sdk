@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Endpoint;
+namespace TensicAI\SDK\Endpoint;
 
 use EventEngine\Data\SpecialKeySupport;
 use TeamBlue\OpenApi\Codegen\Endpoint\Endpoint;
 use TeamBlue\OpenApi\Codegen\Endpoint\EndpointLogic;
 use TeamBlue\OpenApi\Codegen\Endpoint\SpecialKeySupportLogic;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplatePublish;
+use TensicAI\SDK\Model\ProjectTemplatePublish;
 
 class PostProjectsProjectIDPublishTemplate implements Endpoint, SpecialKeySupport
 {

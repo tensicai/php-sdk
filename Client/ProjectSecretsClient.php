@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDSecretsSecretID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDSecrets;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchProjectsProjectIDSecretsSecretID;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDSecrets;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretModel;
-use TeamBlue\TensicAI\SDK\Model\ProjectSecretUpdate;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDSecretsSecretID;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDSecrets;
+use TensicAI\SDK\Endpoint\PatchProjectsProjectIDSecretsSecretID;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDSecrets;
+use TensicAI\SDK\Model\ProjectSecretCreate;
+use TensicAI\SDK\Model\ProjectSecretModel;
+use TensicAI\SDK\Model\ProjectSecretUpdate;
 
 use function array_map;
 

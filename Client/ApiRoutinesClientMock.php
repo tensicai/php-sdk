@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\AdminRoutineToggleRequest;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDRoutinesRoutineIDHistoryQuery;
-use TeamBlue\TensicAI\SDK\Model\RoutineCreate;
-use TeamBlue\TensicAI\SDK\Model\RoutineUpdate;
+use TensicAI\SDK\Model\AdminRoutineToggleRequest;
+use TensicAI\SDK\Model\GetProjectsProjectIDRoutinesRoutineIDHistoryQuery;
+use TensicAI\SDK\Model\RoutineCreate;
+use TensicAI\SDK\Model\RoutineUpdate;
 
 use function func_get_args;
 

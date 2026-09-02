@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseResponse;
+use TensicAI\SDK\Model\EvalTestCaseResponse;
 
 /**
  * @method static EvalTestCaseResponse fromArray(mixed[] $array)

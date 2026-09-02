@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetAdminFullPath;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDV1Models;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDV1ModelsModelId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetWidgetChatJs;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDV1ChatCompletions;
-use TeamBlue\TensicAI\SDK\Model\OpenAIChatCompletionRequest;
+use TensicAI\SDK\Endpoint\GetAdminFullPath;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDV1Models;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDV1ModelsModelId;
+use TensicAI\SDK\Endpoint\GetWidgetChatJs;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDV1ChatCompletions;
+use TensicAI\SDK\Model\OpenAIChatCompletionRequest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

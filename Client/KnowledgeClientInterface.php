@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\BulkIngestEnqueueResponse;
-use TeamBlue\TensicAI\SDK\Model\BulkIngestJobsResponse;
-use TeamBlue\TensicAI\SDK\Model\FindModel;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDIngestBulkQuery;
-use TeamBlue\TensicAI\SDK\Model\IngestResponse;
-use TeamBlue\TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
-use TeamBlue\TensicAI\SDK\Model\ReembedEnqueueResponse;
-use TeamBlue\TensicAI\SDK\Model\ReembedStatusResponse;
-use TeamBlue\TensicAI\SDK\Model\TextIngestModel;
-use TeamBlue\TensicAI\SDK\Model\URLIngestModel;
+use TensicAI\SDK\Model\BulkIngestEnqueueResponse;
+use TensicAI\SDK\Model\BulkIngestJobsResponse;
+use TensicAI\SDK\Model\FindModel;
+use TensicAI\SDK\Model\GetProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\IngestResponse;
+use TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\ReembedEnqueueResponse;
+use TensicAI\SDK\Model\ReembedStatusResponse;
+use TensicAI\SDK\Model\TextIngestModel;
+use TensicAI\SDK\Model\URLIngestModel;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

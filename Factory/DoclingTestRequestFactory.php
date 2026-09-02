@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\DoclingTestRequest;
+use TensicAI\SDK\Model\DoclingTestRequest;
 
 /**
  * @method static DoclingTestRequest fromArray(mixed[] $array)

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\ImageGeneratorModel;
-use TeamBlue\TensicAI\SDK\Model\ImageGeneratorModelCreate;
-use TeamBlue\TensicAI\SDK\Model\ImageGeneratorModelUpdate;
+use TensicAI\SDK\Model\ImageGeneratorModel;
+use TensicAI\SDK\Model\ImageGeneratorModelCreate;
+use TensicAI\SDK\Model\ImageGeneratorModelUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

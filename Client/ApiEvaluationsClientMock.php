@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalDatasetUpdate;
-use TeamBlue\TensicAI\SDK\Model\EvalRunCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseCreate;
-use TeamBlue\TensicAI\SDK\Model\EvalTestCaseUpdate;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDEvalsDatasetsQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDEvalsRunsQuery;
+use TensicAI\SDK\Model\EvalDatasetCreate;
+use TensicAI\SDK\Model\EvalDatasetUpdate;
+use TensicAI\SDK\Model\EvalRunCreate;
+use TensicAI\SDK\Model\EvalTestCaseCreate;
+use TensicAI\SDK\Model\EvalTestCaseUpdate;
+use TensicAI\SDK\Model\GetProjectsProjectIDEvalsDatasetsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDEvalsRunsQuery;
 
 use function func_get_args;
 

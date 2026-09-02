@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsEventsQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsEventsQuery;
 
 use function func_get_args;
 

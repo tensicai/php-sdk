@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\MemoryBankClearResponse;
-use TeamBlue\TensicAI\SDK\Model\MemoryBankPreviewResponse;
-use TeamBlue\TensicAI\SDK\Model\MemoryBankResponse;
+use TensicAI\SDK\Model\MemoryBankClearResponse;
+use TensicAI\SDK\Model\MemoryBankPreviewResponse;
+use TensicAI\SDK\Model\MemoryBankResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

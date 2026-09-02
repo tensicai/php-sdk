@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\GetTemplatesQuery;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateInstantiate;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplatePublish;
-use TeamBlue\TensicAI\SDK\Model\ProjectTemplateUpdate;
+use TensicAI\SDK\Model\GetTemplatesQuery;
+use TensicAI\SDK\Model\ProjectTemplateInstantiate;
+use TensicAI\SDK\Model\ProjectTemplatePublish;
+use TensicAI\SDK\Model\ProjectTemplateUpdate;
 
 use function func_get_args;
 

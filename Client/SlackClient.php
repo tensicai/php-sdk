@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDSlackTest;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDSlackTest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

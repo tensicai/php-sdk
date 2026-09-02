@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModel;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelCreate;
-use TeamBlue\TensicAI\SDK\Model\SpeechToTextModelUpdate;
+use TensicAI\SDK\Model\SpeechToTextModel;
+use TensicAI\SDK\Model\SpeechToTextModelCreate;
+use TensicAI\SDK\Model\SpeechToTextModelUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

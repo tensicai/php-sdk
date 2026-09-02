@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\OtelTestRequest;
+use TensicAI\SDK\Model\OtelTestRequest;
 
 /**
  * @method static OtelTestRequest fromArray(mixed[] $array)

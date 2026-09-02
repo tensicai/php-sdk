@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\TeamBranding;
+use TensicAI\SDK\Model\TeamBranding;
 
 /**
  * @method static TeamBranding fromArray(mixed[] $array)

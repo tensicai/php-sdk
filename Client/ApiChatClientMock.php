@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\ChatModel;
-use TeamBlue\TensicAI\SDK\Model\ChatStopRequest;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDAssetsTokenQuery;
+use TensicAI\SDK\Model\ChatModel;
+use TensicAI\SDK\Model\ChatStopRequest;
+use TensicAI\SDK\Model\GetProjectsProjectIDAssetsTokenQuery;
 
 use function func_get_args;
 

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetWidgetConfig;
-use TeamBlue\TensicAI\SDK\Endpoint\PostWidgetChat;
-use TeamBlue\TensicAI\SDK\Model\WidgetChatRequest;
+use TensicAI\SDK\Endpoint\GetWidgetConfig;
+use TensicAI\SDK\Endpoint\PostWidgetChat;
+use TensicAI\SDK\Model\WidgetChatRequest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryCreate;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryUpdate;
+use TensicAI\SDK\Model\ClassifierRegistryCreate;
+use TensicAI\SDK\Model\ClassifierRegistryUpdate;
 
 use function func_get_args;
 

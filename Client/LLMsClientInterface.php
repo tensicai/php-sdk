@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\GetLlmsQuery;
-use TeamBlue\TensicAI\SDK\Model\LLMModel;
-use TeamBlue\TensicAI\SDK\Model\LLMTestRequest;
-use TeamBlue\TensicAI\SDK\Model\LLMUpdate;
-use TeamBlue\TensicAI\SDK\Model\PageLLMModel;
+use TensicAI\SDK\Model\GetLlmsQuery;
+use TensicAI\SDK\Model\LLMModel;
+use TensicAI\SDK\Model\LLMTestRequest;
+use TensicAI\SDK\Model\LLMUpdate;
+use TensicAI\SDK\Model\PageLLMModel;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

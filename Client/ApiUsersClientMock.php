@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\ApiKeyCreate;
-use TeamBlue\TensicAI\SDK\Model\ApiKeyUpdate;
-use TeamBlue\TensicAI\SDK\Model\GetUsersQuery;
-use TeamBlue\TensicAI\SDK\Model\TOTPDisableRequest;
-use TeamBlue\TensicAI\SDK\Model\TOTPEnableRequest;
-use TeamBlue\TensicAI\SDK\Model\TOTPSetupRequest;
-use TeamBlue\TensicAI\SDK\Model\UserCreate;
-use TeamBlue\TensicAI\SDK\Model\UserLogin;
-use TeamBlue\TensicAI\SDK\Model\UserUpdate;
+use TensicAI\SDK\Model\ApiKeyCreate;
+use TensicAI\SDK\Model\ApiKeyUpdate;
+use TensicAI\SDK\Model\GetUsersQuery;
+use TensicAI\SDK\Model\TOTPDisableRequest;
+use TensicAI\SDK\Model\TOTPEnableRequest;
+use TensicAI\SDK\Model\TOTPSetupRequest;
+use TensicAI\SDK\Model\UserCreate;
+use TensicAI\SDK\Model\UserLogin;
+use TensicAI\SDK\Model\UserUpdate;
 
 use function func_get_args;
 

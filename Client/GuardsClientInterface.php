@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsEventsQuery;
-use TeamBlue\TensicAI\SDK\Model\GuardDailyResponse;
-use TeamBlue\TensicAI\SDK\Model\GuardEventsResponse;
-use TeamBlue\TensicAI\SDK\Model\GuardSummaryResponse;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsEventsQuery;
+use TensicAI\SDK\Model\GuardDailyResponse;
+use TensicAI\SDK\Model\GuardEventsResponse;
+use TensicAI\SDK\Model\GuardSummaryResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

@@ -2,27 +2,27 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\BodyPutProjectsProjectIDCustomToolsToolNameEnabled;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsQuery;
-use TeamBlue\TensicAI\SDK\Model\ProjectCloneRequest;
-use TeamBlue\TensicAI\SDK\Model\ProjectCustomToolEntry;
-use TeamBlue\TensicAI\SDK\Model\ProjectCustomToolsResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectCustomToolToggleResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectModelCreate;
-use TeamBlue\TensicAI\SDK\Model\ProjectModelUpdate;
-use TeamBlue\TensicAI\SDK\Model\ProjectsResponse;
-use TeamBlue\TensicAI\SDK\Model\ProjectToolUpdate;
-use TeamBlue\TensicAI\SDK\Model\PromptActivateResponse;
-use TeamBlue\TensicAI\SDK\Model\PromptVersionResponse;
-use TeamBlue\TensicAI\SDK\Model\RouterGenerateRequest;
-use TeamBlue\TensicAI\SDK\Model\RouterGenerateResponse;
-use TeamBlue\TensicAI\SDK\Model\RouterNodeGenerateRequest;
-use TeamBlue\TensicAI\SDK\Model\RouterNodeGenerateResponse;
-use TeamBlue\TensicAI\SDK\Model\SystemPromptGenerateRequest;
-use TeamBlue\TensicAI\SDK\Model\SystemPromptGenerateResponse;
-use TeamBlue\TensicAI\SDK\Model\UsernameRequest;
+use TensicAI\SDK\Model\BodyPutProjectsProjectIDCustomToolsToolNameEnabled;
+use TensicAI\SDK\Model\GetProjectsQuery;
+use TensicAI\SDK\Model\ProjectCloneRequest;
+use TensicAI\SDK\Model\ProjectCustomToolEntry;
+use TensicAI\SDK\Model\ProjectCustomToolsResponse;
+use TensicAI\SDK\Model\ProjectCustomToolToggleResponse;
+use TensicAI\SDK\Model\ProjectModelCreate;
+use TensicAI\SDK\Model\ProjectModelUpdate;
+use TensicAI\SDK\Model\ProjectsResponse;
+use TensicAI\SDK\Model\ProjectToolUpdate;
+use TensicAI\SDK\Model\PromptActivateResponse;
+use TensicAI\SDK\Model\PromptVersionResponse;
+use TensicAI\SDK\Model\RouterGenerateRequest;
+use TensicAI\SDK\Model\RouterGenerateResponse;
+use TensicAI\SDK\Model\RouterNodeGenerateRequest;
+use TensicAI\SDK\Model\RouterNodeGenerateResponse;
+use TensicAI\SDK\Model\SystemPromptGenerateRequest;
+use TensicAI\SDK\Model\SystemPromptGenerateResponse;
+use TensicAI\SDK\Model\UsernameRequest;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

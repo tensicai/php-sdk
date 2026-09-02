@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\ClientMock\Mock;
 use TeamBlue\ClientMock\MockLogic;
-use TeamBlue\TensicAI\SDK\Model\ClassifierModel;
-use TeamBlue\TensicAI\SDK\Model\MCPProbeRequest;
-use TeamBlue\TensicAI\SDK\Model\OllamaCloudInstanceModel;
-use TeamBlue\TensicAI\SDK\Model\OllamaInstanceModel;
-use TeamBlue\TensicAI\SDK\Model\OllamaModelPullRequest;
-use TeamBlue\TensicAI\SDK\Model\OpenAICompatDiscoverRequest;
+use TensicAI\SDK\Model\ClassifierModel;
+use TensicAI\SDK\Model\MCPProbeRequest;
+use TensicAI\SDK\Model\OllamaCloudInstanceModel;
+use TensicAI\SDK\Model\OllamaInstanceModel;
+use TensicAI\SDK\Model\OllamaModelPullRequest;
+use TensicAI\SDK\Model\OpenAICompatDiscoverRequest;
 
 use function func_get_args;
 

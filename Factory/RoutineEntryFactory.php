@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\RoutineEntry;
+use TensicAI\SDK\Model\RoutineEntry;
 
 /**
  * @method static RoutineEntry fromArray(mixed[] $array)

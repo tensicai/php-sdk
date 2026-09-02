@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDMemoryBank;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDMemoryBankPreview;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDMemoryBankClear;
-use TeamBlue\TensicAI\SDK\Model\MemoryBankClearResponse;
-use TeamBlue\TensicAI\SDK\Model\MemoryBankPreviewResponse;
-use TeamBlue\TensicAI\SDK\Model\MemoryBankResponse;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDMemoryBank;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDMemoryBankPreview;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDMemoryBankClear;
+use TensicAI\SDK\Model\MemoryBankClearResponse;
+use TensicAI\SDK\Model\MemoryBankPreviewResponse;
+use TensicAI\SDK\Model\MemoryBankResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

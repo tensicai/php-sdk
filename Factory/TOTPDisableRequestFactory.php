@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\TOTPDisableRequest;
+use TensicAI\SDK\Model\TOTPDisableRequest;
 
 /**
  * @method static TOTPDisableRequest fromArray(mixed[] $array)

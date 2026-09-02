@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
+use TensicAI\SDK\Model\PostProjectsProjectIDIngestBulkQuery;
 
 /**
  * @method static PostProjectsProjectIDIngestBulkQuery fromArray(mixed[] $array)

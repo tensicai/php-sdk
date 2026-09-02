@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteClassifiersClassifierId;
-use TeamBlue\TensicAI\SDK\Endpoint\GetClassifiers;
-use TeamBlue\TensicAI\SDK\Endpoint\GetClassifiersClassifierId;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchClassifiersClassifierId;
-use TeamBlue\TensicAI\SDK\Endpoint\PostClassifiers;
-use TeamBlue\TensicAI\SDK\Endpoint\PostClassifiersClassifierIdTest;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryCreate;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryModel;
-use TeamBlue\TensicAI\SDK\Model\ClassifierRegistryUpdate;
+use TensicAI\SDK\Endpoint\DeleteClassifiersClassifierId;
+use TensicAI\SDK\Endpoint\GetClassifiers;
+use TensicAI\SDK\Endpoint\GetClassifiersClassifierId;
+use TensicAI\SDK\Endpoint\PatchClassifiersClassifierId;
+use TensicAI\SDK\Endpoint\PostClassifiers;
+use TensicAI\SDK\Endpoint\PostClassifiersClassifierIdTest;
+use TensicAI\SDK\Model\ClassifierRegistryCreate;
+use TensicAI\SDK\Model\ClassifierRegistryModel;
+use TensicAI\SDK\Model\ClassifierRegistryUpdate;
 
 use function array_map;
 

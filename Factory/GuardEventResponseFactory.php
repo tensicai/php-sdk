@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\GuardEventResponse;
+use TensicAI\SDK\Model\GuardEventResponse;
 
 /**
  * @method static GuardEventResponse fromArray(mixed[] $array)

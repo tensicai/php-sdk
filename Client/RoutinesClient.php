@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\DeleteProjectsProjectIDRoutinesRoutineID;
-use TeamBlue\TensicAI\SDK\Endpoint\GetAdminRoutines;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDRoutines;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDRoutinesRoutineIDHistory;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchAdminRoutinesRoutineID;
-use TeamBlue\TensicAI\SDK\Endpoint\PatchProjectsProjectIDRoutinesRoutineID;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDRoutines;
-use TeamBlue\TensicAI\SDK\Endpoint\PostProjectsProjectIDRoutinesRoutineIDFire;
-use TeamBlue\TensicAI\SDK\Model\AdminRoutineToggleRequest;
-use TeamBlue\TensicAI\SDK\Model\ChatResponse;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDRoutinesRoutineIDHistoryQuery;
-use TeamBlue\TensicAI\SDK\Model\RoutineCreate;
-use TeamBlue\TensicAI\SDK\Model\RoutineEntry;
-use TeamBlue\TensicAI\SDK\Model\RoutineHistoryResponse;
-use TeamBlue\TensicAI\SDK\Model\RoutinesResponse;
-use TeamBlue\TensicAI\SDK\Model\RoutineUpdate;
+use TensicAI\SDK\Endpoint\DeleteProjectsProjectIDRoutinesRoutineID;
+use TensicAI\SDK\Endpoint\GetAdminRoutines;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDRoutines;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDRoutinesRoutineIDHistory;
+use TensicAI\SDK\Endpoint\PatchAdminRoutinesRoutineID;
+use TensicAI\SDK\Endpoint\PatchProjectsProjectIDRoutinesRoutineID;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDRoutines;
+use TensicAI\SDK\Endpoint\PostProjectsProjectIDRoutinesRoutineIDFire;
+use TensicAI\SDK\Model\AdminRoutineToggleRequest;
+use TensicAI\SDK\Model\ChatResponse;
+use TensicAI\SDK\Model\GetProjectsProjectIDRoutinesRoutineIDHistoryQuery;
+use TensicAI\SDK\Model\RoutineCreate;
+use TensicAI\SDK\Model\RoutineEntry;
+use TensicAI\SDK\Model\RoutineHistoryResponse;
+use TensicAI\SDK\Model\RoutinesResponse;
+use TensicAI\SDK\Model\RoutineUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

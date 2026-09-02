@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\ChatAttachmentUploadResponse;
+use TensicAI\SDK\Model\ChatAttachmentUploadResponse;
 
 /**
  * @method static ChatAttachmentUploadResponse fromArray(mixed[] $array)

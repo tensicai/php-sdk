@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDGuardsDaily;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDGuardsEvents;
-use TeamBlue\TensicAI\SDK\Endpoint\GetProjectsProjectIDGuardsSummary;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
-use TeamBlue\TensicAI\SDK\Model\GetProjectsProjectIDGuardsEventsQuery;
-use TeamBlue\TensicAI\SDK\Model\GuardDailyResponse;
-use TeamBlue\TensicAI\SDK\Model\GuardEventsResponse;
-use TeamBlue\TensicAI\SDK\Model\GuardSummaryResponse;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDGuardsDaily;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDGuardsEvents;
+use TensicAI\SDK\Endpoint\GetProjectsProjectIDGuardsSummary;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsDailyQuery;
+use TensicAI\SDK\Model\GetProjectsProjectIDGuardsEventsQuery;
+use TensicAI\SDK\Model\GuardDailyResponse;
+use TensicAI\SDK\Model\GuardEventsResponse;
+use TensicAI\SDK\Model\GuardSummaryResponse;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

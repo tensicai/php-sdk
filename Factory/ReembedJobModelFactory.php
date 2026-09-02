@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\ReembedJobModel;
+use TensicAI\SDK\Model\ReembedJobModel;
 
 /**
  * @method static ReembedJobModel fromArray(mixed[] $array)

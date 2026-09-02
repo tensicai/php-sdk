@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
 use TeamBlue\OpenApi\Codegen\Attribute\Endpoint as EndpointAttribute;
 use TeamBlue\OpenApi\Codegen\Client\Client as AbstractClient;
-use TeamBlue\TensicAI\SDK\Endpoint\GetAudio;
-use TeamBlue\TensicAI\SDK\Endpoint\PostAudioGeneratorTranscript;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1AudioTranscriptions;
-use TeamBlue\TensicAI\SDK\Endpoint\PostV1AudioTranslations;
+use TensicAI\SDK\Endpoint\GetAudio;
+use TensicAI\SDK\Endpoint\PostAudioGeneratorTranscript;
+use TensicAI\SDK\Endpoint\PostV1AudioTranscriptions;
+use TensicAI\SDK\Endpoint\PostV1AudioTranslations;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

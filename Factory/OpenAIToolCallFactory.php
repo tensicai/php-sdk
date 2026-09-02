@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\OpenAIToolCall;
+use TensicAI\SDK\Model\OpenAIToolCall;
 
 /**
  * @method static OpenAIToolCall fromArray(mixed[] $array)

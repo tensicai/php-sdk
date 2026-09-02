@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Client;
+namespace TensicAI\SDK\Client;
 
-use TeamBlue\TensicAI\SDK\Model\WidgetContextSecretResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetCreate;
-use TeamBlue\TensicAI\SDK\Model\WidgetCreatedResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetListResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetResponse;
-use TeamBlue\TensicAI\SDK\Model\WidgetUpdate;
+use TensicAI\SDK\Model\WidgetContextSecretResponse;
+use TensicAI\SDK\Model\WidgetCreate;
+use TensicAI\SDK\Model\WidgetCreatedResponse;
+use TensicAI\SDK\Model\WidgetListResponse;
+use TensicAI\SDK\Model\WidgetResponse;
+use TensicAI\SDK\Model\WidgetUpdate;
 
 /**
  * @SuppressWarnings("PHPMD.ExcessiveClassLength")

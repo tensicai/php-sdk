@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Factory;
+namespace TensicAI\SDK\Factory;
 
 use TeamBlue\JsonImmutableObjects\FactoryFromArray;
-use TeamBlue\TensicAI\SDK\Model\ChunkingRecommendation;
+use TensicAI\SDK\Model\ChunkingRecommendation;
 
 /**
  * @method static ChunkingRecommendation fromArray(mixed[] $array)
