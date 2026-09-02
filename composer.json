@@ -1,5 +1,5 @@
 {
-    "name": "tensic-ai/php-sdk",
+    "name": "tensicai/php-sdk",
     "description": "PHP Tensic AI SDK",
     "type": "library",
     "license": "MIT",

@@ -18,7 +18,7 @@ And install the package:
 
 
 ```bash
-composer require tensic-ai/php-sdk
+composer require tensicai/php-sdk
 ```
 ## Usage
 
