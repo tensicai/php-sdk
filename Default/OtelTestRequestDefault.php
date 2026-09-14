@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TeamBlue\TensicAI\SDK\Default;
+namespace TensicAI\SDK\Default;
 
 use RuntimeException;
 
@@ -10,6 +10,8 @@ trait OtelTestRequestDefault
 {
     public static function default(): self
     {
-        throw new RuntimeException('Default object for \'OtelTestRequestDefault\' not implemented yet.');
+        throw new RuntimeException(
+            'Default object for \'OtelTestRequestDefault\' not implemented yet.',
+        );
     }
 }
